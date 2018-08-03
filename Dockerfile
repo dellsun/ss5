@@ -10,5 +10,4 @@ ADD shadowsocks.json /etc/
 ENV TZ Asia/Shanghai
 EXPOSE 24947
 
-ENTRYPOINT ssserver -c /etc/shadowsocks.json -d start
-
+ENTRYPOINT ssserver -c /etc/shadowsocks.json
