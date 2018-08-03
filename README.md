@@ -15,7 +15,7 @@ systemctl start docker
 docker run hello-world
 
 
-docker run -d -p 24947:24947 centos:7
+docker run -d -p 24947:24947 dellsun/ss5
 
 firewall-cmd --zone=public --add-port=24947/tcp --permanent
 firewall-cmd --reload
