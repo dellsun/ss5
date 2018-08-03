@@ -5,7 +5,7 @@ RUN yum -y install python-pip
 RUN pip install --upgrade pip
 RUN pip install shadowsocks
 
-RUN ADD shadowsocks.json /etc/
+ADD shadowsocks.json /etc/
 
 ENV TZ Asia/Shanghai
 EXPOSE 24947
