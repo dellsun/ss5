@@ -3,8 +3,8 @@
     "server_port":46435,
     "local_address": "127.0.0.1",
     "local_port":1080,
-    "password":"uvp@TX!y*!PDLZz0",
+    "password":"BRm&&xu4xpT*PouU",
     "timeout":600,
-    "method":"rc4-md5",
+    "method":"aes-256-cfb",
     "fast_open": false
 }

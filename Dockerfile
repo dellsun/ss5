@@ -8,6 +8,6 @@ RUN pip install shadowsocks
 ADD shadowsocks.json /etc/
 
 ENV TZ Asia/Shanghai
-EXPOSE 24947
+EXPOSE 46435
 
 ENTRYPOINT ssserver -c /etc/shadowsocks.json
